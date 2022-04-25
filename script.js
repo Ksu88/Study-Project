@@ -12,4 +12,4 @@ let oneOfLastFilmsTwo = prompt('Один из последних просмот�
 let whichRatinTwo = prompt('На сколько оцените его?', '');
 personalMovieDB.movies[oneOfLastFilms] = whichRatin;
 personalMovieDB.movies[oneOfLastFilmsTwo] = whichRatinTwo;
-console.log(personalMovieDB);
+console.log(personalMovieDB);//coment
